@@ -1,0 +1,48 @@
+Inicio
+Se (sentado no sofa) entao
+    levantar do sofa
+fimse
+
+Caminhar ate o banheiro
+
+se (porta fechada) entao
+    abrir a porta
+fimse
+
+entrar no baneiro
+
+se (luz apagada) entao
+    acender a luz
+fimse
+se (escova de dente dentro do armario) entao
+    abrir armario
+    pegar escova
+senao
+    procurar escova
+    se(encontrar escova)entao
+        pegar escova
+    senao
+        ligar para pedir escova
+        se (nao tem escova na farmacia) entao
+            pedir em outra farmacia
+        fimse 
+        receber escova
+        pegar a escova
+    fimse
+fimse
+
+se (pasta de dente no armario) entao
+   abrir armario 
+   pegar pasta de dente
+senao
+   ligar para pedir pasta
+    se (nao tem escova na farmacia) entao
+        pedir em outra farmacia
+    fimse  
+    receber escova
+    pegar escova
+fimse
+passar pasta na escova
+escovar os dentes
+Fim
+
